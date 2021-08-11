@@ -1,0 +1,64 @@
+.book-button {
+  background-color: #87A8A4;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #f0eae3;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.book-button:hover {
+  background-color: #6c8885;
+}
+
+.book-button:active {
+  background-color: #5a706e;
+}
+
+.empty-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0 1rem;
+}
+
+.empty-button:hover {
+  text-decoration: underline;
+}
+
+.empty-button:active {
+  color: #5a706e;
+  text-decoration: underline;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.icon-button svg {
+  color: #87A8A4;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.icon-button svg:hover {
+  color: #6c8885;
+  text-decoration: underline;
+}
+
+.icon-button svg:active {
+  color: #5a706e;
+  text-decoration: underline;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .icon-button svg {
+    font-size: 1rem;
+  }
+}

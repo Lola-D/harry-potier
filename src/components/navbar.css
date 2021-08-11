@@ -1,0 +1,47 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: #87A8A4;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #f0eae3;
+}
+
+.brand {
+  font-family: 'Spectral', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.cart-group {
+  display: flex;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-cart-text {
+  font-size: 0.7rem
+}
+
+.navbar-count {
+  background-color: #986D8E;
+  border-radius: 50%;
+  color: #f0eae3;
+  font-weight: 700;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  padding-top: 2px;
+}

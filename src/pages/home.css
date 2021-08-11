@@ -1,0 +1,14 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.home-list {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 2rem;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
