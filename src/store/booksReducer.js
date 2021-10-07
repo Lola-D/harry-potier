@@ -23,8 +23,8 @@ export const booksReducer = (state = [], action) => {
       return state.map((book) =>
           book === action.payload
           ? {
-            ...book, selected: false,
-            quantity: book.quantity !== 1 ? book.quantity - 1 : 0
+              ...book, selected: false,
+              quantity: book.quantity !== 1 ? book.quantity - 1 : 0
             }
             : book,
         );
